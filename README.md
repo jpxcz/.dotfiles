@@ -10,5 +10,5 @@ $ git clone git@github.com:jpxcz/.dotfiles.git ~/.dotfiles
 
 ## Symlinks
 ```sh
-$ ln -s ~/.dotfiles/.tmux.conf ~/.tmux.conf
+$ cp ~/.dotfiles/.tmux.conf ~/.tmux.conf
 ```
