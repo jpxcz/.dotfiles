@@ -54,3 +54,9 @@ work_directory() {
 zle -N work_directory
 bindkey -s '^f' work_directory 
 
+
+# The next line updates PATH for the Google Cloud SDK.
+if [ -f '/Users/jp/Downloads/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/jp/Downloads/google-cloud-sdk/path.zsh.inc'; fi
+
+# The next line enables shell command completion for gcloud.
+if [ -f '/Users/jp/Downloads/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/jp/Downloads/google-cloud-sdk/completion.zsh.inc'; fi
